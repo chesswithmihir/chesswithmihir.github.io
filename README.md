@@ -1,1 +1,1 @@
-[Website](file:///C:/Users/mihir/Documents/resume/chesswithmihir.github.io/index.html#one)
+[Website](https://chesswithmihir.github.io/)
