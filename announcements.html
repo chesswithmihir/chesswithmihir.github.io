@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        .announcement-slider {
+            margin-bottom: 20px;
+        }
+
+        .announcement {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            background-color: #fff;
+        }
+
+        .slick-prev,
+        .slick-next {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .slick-prev:hover,
+        .slick-next:hover {
+            color: #000;
+        }
+    </style>
+    <title>Announcements</title>
+</head>
+<body>
+
+    <section id="one">
+        <div class="container">
+            <header class="major">
+                <h2><em>CS 61B, Spring 2024</em></h2>
+                <p>Data Structures (...and Algorithms!)</p>
+            </header>
+
+            <!-- Announcements Section -->
+            <section class="announcement-slider">
+                <h3>Announcements</h3>
+
+                <div class="slick-carousel">
+                    <div class="announcement">
+                        <h4>Week 1: Welcome to CS 61B!</h4>
+                        <p>Welcome to the first week of CS 61B. We are excited to have you in the course...</p>
+                    </div>
+
+                    <div class="announcement">
+                        <h4>Week 2: Data Structures Introduction</h4>
+                        <p>This week, we will dive into the fundamentals of data structures. Be prepared for...</p>
+                    </div>
+
+                    <!-- Add more announcements as needed -->
+
+                </div>
+            </section>
+            <!-- End of Announcements Section -->
+
+        </div>
+    </section>
+
+    <!-- The rest of your existing HTML (Section Two and commented-out sections) goes here -->
+    <section id="two">
+        <div class="container">
+            <h3>Coursework at UC Berkeley</h3>
+            <ul class="feature-icons">
+                <li class="icon solid fa-code">CS 61A (Python, Intro to CS)</li>
+                <li class="icon solid fa-cubes">CS 61B (Java, Data Structures)</li>
+                <li class="icon solid fa-book">EECS 16AB (Electrical Engineering)</li>
+                <li class="icon solid fa-coffee">CS 197 (Lead an Office Hours for CS61A)</li>
+                <li class="icon solid fa-bolt">CS 399 (Linux System Administration)</li>
+                <li class="icon solid fa-users">ECON 1 (Intro to Economics)</li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                dots: true,
+                arrows: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<button type="button" class="slick-prev">&#8249;</button>',
+                nextArrow: '<button type="button" class="slick-next">&#8250;</button>',
+            });
+        });
+    </script>
+
+</body>
+</html>
