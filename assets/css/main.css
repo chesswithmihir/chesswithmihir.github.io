@@ -2235,7 +2235,9 @@ input, select, textarea {
 			.image.avatar img {
 				border-radius: 100%;
 				display: block;
-				width: 100%;
+				width: 105%; /* Increase the width to make the image larger */
+				height: auto; /* Maintain the aspect ratio */
+				margin: 0 auto; /* Center the image horizontally (optional) */
 			}
 
 		.image.main {
