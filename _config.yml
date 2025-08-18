@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Mihir Mirchandani"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/mihir_pfp.jpg"
   bio    : "Software Developer that likes working on ML/Infra projects"
   links:
     - label: "Website"
