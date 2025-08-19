@@ -32,4 +32,6 @@ And after all of that crazy workload and getting a good grade in CS 61B I felt m
 - taking sorting algorithms and see how asymptotic runtimes are good for different cases!
 - building a HashMap using other data structures we learned about building on top of each other like lego blocks (Array + LinkedList = HashMap)
 
-So I would say a lot of CS was learned in education, but more CS was taught in schooling and that will always be a huge part of my identity!
+So I would say a lot of CS was learned in education, but more CS was taught in schooling and that will always be a huge part of my identity! I am about to join google next week. I'm excited to be joining some former TA colleagues and fellow students and explore more fields such as ML, LLMs, AI at Google Cloud! But the most important thing is the infra that all of this AI runs on and that is what I want to focus on learning with anyone reading. So let's learn together. I won't lie a lot of my content will come from sources on ChatGPT and Gemini queries, but that is today's best tools to learn and get ahead so I want to take advantage of them to help me grow and learn.
+
+Let's see how the days after AI look...
